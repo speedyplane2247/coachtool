@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Game Manager</title>
+</head>
+<body>
+<h1 style="text-align: center;"><font face="lucida sans unicode, lucida grande, sans-serif">Game Manager</font></h1>
+
+<p style="text-align: center;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Enter and view data about your games</span></p>
+
+<h2 style="text-align: center;"><span style="font-family:tahoma,geneva,sans-serif;">ENTER A MATCH</span></h2>
+
+<p><span style="font-family:georgia,serif;">Team 1 Name:&nbsp;<input name="gm_team1" type="text" /></span></p>
+
+<p><span style="font-family:georgia,serif;">Team 2 Name:&nbsp;<input name="gm_team2" type="text" /></span></p>
+
+<p><span style="font-family:georgia,serif;">Score:&nbsp;<input name="gm_score" type="text" /></span></p>
+
+<p><span style="font-family:georgia,serif;">Match ID:&nbsp;<input name="gm_matchid" type="text" /></span></p>
+
+<p style="text-align: center;"><input name="gm_savedata" type="button" value="Save Data" onclick="saveGameData()"/></p>
+
+<h2 style="text-align: center;"><span style="font-family:georgia,serif;">VIEW A MATCH</span></h2>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;">MatchID:</span>&nbsp;<input name="gm_matchid_selector" type="text" /></p>
+
+<p style="text-align: center;"><input name="gm_viewmatch" type="button" value="View" onclick="viewGameData()"/></p>
+<script type="text/javascript" src="gamemanager.js"></script>
+</body>
+</html>
